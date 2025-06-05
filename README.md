@@ -1,5 +1,5 @@
 
-# Heart Disease Prediction App 🫀
+# Heart Disease Prediction
 
 This is a machine learning project that predicts the presence of heart disease using clinical patient data. The best-performing model was deployed as an interactive web app using Streamlit.
 
@@ -49,13 +49,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-4. Open your browser to [http://localhost:8501](http://localhost:8501)
+4. Open browser to [http://localhost:8501](http://localhost:8501)
 
 ---
 
 ## Model Performance
 
-- **Best Accuracy:** *[Insert your accuracy here]*
+- **Best Accuracy:**   0.8
 - Confusion Matrix, Classification Report, and ROC Curve used for evaluation
 
 ---
