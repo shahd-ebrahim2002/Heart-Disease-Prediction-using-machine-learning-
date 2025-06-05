@@ -1,83 +1,79 @@
 
-# Heart Disease Prediction - Machine Learning Project
+# Heart Disease Prediction App 🫀
 
-This project applies various machine learning models to predict the presence of heart disease using a patient medical dataset. The best-performing model is deployed using Streamlit for user interaction.
+This is a machine learning project that predicts the presence of heart disease using clinical patient data. The best-performing model was deployed as an interactive web app using Streamlit.
 
 ---
- Project Structure
+
+##  Project Overview
+
+- **Goal:** Predict heart disease from medical data
+- **Models Used:** Logistic Regression, Random Forest, Naive Bayes, SVM, Linear Regression , Decision Tree, KNN
+- **Best Model:** Random Forest
+- **Deployment:** Streamlit Web App
+- **Dataset:** Structured dataset with clinical features such as age, sex, chest pain type, blood pressure, cholesterol, etc.
+
+---
+
+## Project Structure
 
 ```
-heart-disease-ml/
+heart-disease-ml-app/
 │
-├── app.py                       # Streamlit web app
-├── random_forest_model.pkl     # Trained best model
-├── scaler.pkl                  # Preprocessing scaler 
-├── requirements.txt            # Python dependencies
-├── final project1.ipynb        # Complete notebook with all ML steps
-└── Heart_Disease_ML_Report.docx  # Final report with figures
+├── app.py                    # Streamlit app interface
+├── random_forest_model.pkl   # Trained Random Forest model
+├── scaler.pkl                # Fitted MinMaxScaler
+├── feature_names.pkl         # Feature columns used in training
+├── requirements.txt          # Python dependencies
+├── final_project1.ipynb      # Full training and evaluation notebook
+└── README.md                 # Project documentation (this file)
 ```
 
 ---
 
- How to Run the App Locally
+##  How to Run the App Locally
 
-1. Clone the repository or download the files
-2. Open Anaconda Prompt or terminal
-3. Navigate to the project folder
-4. Install dependencies:
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/heart-disease-ml-app.git
+cd heart-disease-ml-app
+```
 
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Run the Streamlit app:
-
+3. Run the app:
 ```bash
 streamlit run app.py
 ```
 
----
-
-Models Used
-
-- Logistic Regression
-- Random Forest (Best)
-- Naive Bayes
-- Support Vector Machine
-- XGBoost
-- Linear Regression (as classifier if assumptions met)
+4. Open your browser to [http://localhost:8501](http://localhost:8501)
 
 ---
 
-Deployment
+## Model Performance
 
-The app is deployed using Streamlit Cloud and can be accessed via the provided public link.
-
----
-
-Performance
-
-- Best Model: **Random Forest**
-- Accuracy: *[Add your best accuracy here]*
-- Evaluation metrics include: confusion matrix, classification report, and ROC curve.
+- **Best Accuracy:** *[Insert your accuracy here]*
+- Confusion Matrix, Classification Report, and ROC Curve used for evaluation
 
 ---
 
- Dataset
+## Deployment
 
-The dataset used contains various clinical features such as:
-- Age
-- Sex
-- Chest pain type
-- Resting blood pressure
-- Cholesterol
-- Blood sugar, ECG results, and more...
+The model is deployed using [Streamlit Cloud](https://streamlit.io/cloud) and can be accessed through a public URL.
 
 ---
 
-Author
+## License
 
-Shahd Ebrahim  
-Biotech senior | Machine Learning Enthusiast
+This project is for academic purposes.
 
+---
+
+## Author
+
+Shahd Ebrahim   
+Biotechnology Student – Nile University  
 
